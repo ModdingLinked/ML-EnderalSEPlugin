@@ -301,6 +301,11 @@ IPluginGame::LoadOrderMechanism GameEnderalSE::loadOrderMechanism() const
   return IPluginGame::LoadOrderMechanism::PluginsTxt;
 }
 
+MOBase::IPluginGame::SortMechanism GameEnderalSE::sortMechanism() const
+{
+  return SortMechanism::NONE;
+}
+
 int GameEnderalSE::nexusModOrganizerID() const
 {
   return 0;
